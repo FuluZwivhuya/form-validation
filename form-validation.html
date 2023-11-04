@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+   <div class="Registration">
+  <label for="user_id">User_id:</label> 
+  <input type="text" id="user_id" name="user_id" required>
+   </div>
+
+  <div class="Registration">
+<label for="user_password">Password:</label>
+  <input type="text" id="password" name="user_password" required>
+  </div>
+  
+  <div class="Registration">
+    <label for="name">Name:</label>
+  <input type=" text" id="name" name="user_name" required>
+  </div>
+
+  <div class="Registration">
+    <label for=" Address">Adrress:</label>
+    <input type="text" type="number" id="Adrress" name="user_address" optional>
+  </div>
+
+ <div class="Registration">
+    <label for="country"> Country:</label>
+    <input type="select" id="country" name="user_country" required>
+ </div>
+ 
+ <div class=" Registration">
+    <label for="ZipCode">ZipCode:</label>
+    <input type="number" id="ZipCode" name="user_zipcode>"
+ </div>
+
+<div class="Email">
+    <label for="mail">Mail:</label>
+  <input type="mail" id="mail" name="user_mail">
+  </div>
+
+  <br>
+  <fieldset>
+    <legend>Sex</legend>
+    <label><input type="radio" name="radio" value="Male" required /> Male</label>
+    <label><input type="radio" name="radio" value="Female" required/> Female</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Language</legend>
+    <label><input type="checkbox" name="checkbox" value="English" /> English</label>
+    <label><input type="checkbox" name="checkbox" value="Non-English" /> Non-English</label>
+  </fieldset>
+
+  <label for="About">About:</label>
+  <textarea name="user_message" id="About"></textarea>
+  <input type="submit">
+
+   </form>
+</body>
+</html>
